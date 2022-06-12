@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Users" ALTER COLUMN "google_id" DROP NOT NULL,
+ALTER COLUMN "google_id" SET DATA TYPE TEXT;
